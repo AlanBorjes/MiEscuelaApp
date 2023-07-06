@@ -9,12 +9,12 @@ $.ajax({
     data.forEach(element => {
         var grados = element.grados_academicos;
         var gradosnew = '<ul>';
-        var grados2
+        var grados2 = ""
         console.log(grados);
         grados.forEach(element=>{
             console.log(element);
             grados2 =grados2+ `
-            <li>${element.titulo}</li>
+            <li>${element.titulo} / ${element.institucion}</li>
           `;
         })
         gradosnew= gradosnew+ grados2+"</ul>"
@@ -27,7 +27,6 @@ $.ajax({
          <th scope="row">
         `+gradosnew+`
          </th>
-
          </tr>`
     });
     var table = document.getElementById("tbody");
