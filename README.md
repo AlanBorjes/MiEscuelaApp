@@ -9,3 +9,6 @@ Este proyecto fue creado por:
 
 
 Luis Manuel Pozo De La Torre
+
+# OBED ARIEL HURTADO HERNÁNDEZ
+Marcos Ariel Ordoñez Jiménez
