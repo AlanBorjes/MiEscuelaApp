@@ -11,7 +11,7 @@ xhr.onreadystatechange = function() {
 };
 xhr.open("GET", "../data/estudiantes.json", true);
 xhr.send();
- 
+  
 function generarFilas(datos) {
   for (var i = 0; i < datos.length; i++) {
     var fila = document.createElement("tr");
