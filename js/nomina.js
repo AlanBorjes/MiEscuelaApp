@@ -1,10 +1,18 @@
 let nominas = [];
+<<<<<<< HEAD
 fetch('./data/nomina.json')
+=======
+fetch('../data/nomina.json')
+>>>>>>> 35561d1188fdea70ba83af3f436b9ec7c973e497
   .then(response => response.json())
   .then(data => {
     nominas = data;
     console.log(data);
+<<<<<<< HEAD
     var tbody = document.getElementById('nominas-body');
+=======
+    var tbody = document.getElementById('grupos-body');
+>>>>>>> 35561d1188fdea70ba83af3f436b9ec7c973e497
     nominas.forEach(function (nomina) {
         var row = document.createElement('tr');
         row.innerHTML = '<td>' + nomina.id + '</td>' +
